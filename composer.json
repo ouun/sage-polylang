@@ -2,7 +2,7 @@
   "name": "ouun/sage-polylang",
   "type": "theme-plugin",
   "license": "MIT",
-  "description": "",
+  "description": "Better Polylang Experience for Sage 10",
   "homepage": "https://github.com/ouun/sage-polylang",
   "authors": [
     {
@@ -12,9 +12,10 @@
     {
       "name": "Philipp Wellmer",
       "email": "philipp@ouun.io"
+    }
   ],
   "keywords": [
-    "wordpress"
+    "wordpress",
     "sage"
   ],
   "support": {
@@ -26,17 +27,17 @@
     }
   },
   "require": {
-    "php": ">=7.1.0",
+    "php": "^7.1|^8.0",
     "composer/installers": "~1.0"
   },
   "require-dev": {
-    "squizlabs/php_codesniffer": "~3.0"
+    "squizlabs/php_codesniffer": "^3.5"
   },
   "extra": {
     "acorn": {
       "providers": [
-        "Genero\\Sage\\Polylang\\Providers\\PolylangServiceProvider",
-        "Genero\\Sage\\Polylang\\Providers\\TranslationFinderServiceProvider"
+        "Ouun\\Sage\\Polylang\\Providers\\PolylangServiceProvider",
+        "Ouun\\Sage\\Polylang\\Providers\\TranslationFinderServiceProvider"
       ]
     }
   },
