@@ -19,7 +19,7 @@ $ composer require ouun/sage-polylang
 ## Getting Started
 Publish the Polylang config file with Acorn:
 ```
-$ wp acorn vendor:publish --provider="Log1x\Poet\PoetServiceProvider"
+$ wp acorn vendor:publish --provider="Ouun\Sage\Polylang\PolylangServiceProvider"
 ```
 
 ## Usage
