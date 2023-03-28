@@ -1,28 +1,32 @@
 {
-  "name": "generoi/sage-polylang",
+  "name": "ouun/sage-polylang",
   "type": "theme-plugin",
   "license": "MIT",
   "description": "",
-  "homepage": "https://github.com/generoi/sage-polylang",
+  "homepage": "https://github.com/ouun/sage-polylang",
   "authors": [
     {
       "name": "Oskar Schöldström",
       "email": "public@oxy.fi"
-    }
+    },
+    {
+      "name": "Philipp Wellmer",
+      "email": "philipp@ouun.io"
   ],
   "keywords": [
     "wordpress"
+    "sage"
   ],
   "support": {
-    "issues": "https://github.com/generoi/sage-polylang/issues"
+    "issues": "https://github.com/ouun/sage-polylang/issues"
   },
   "autoload": {
     "psr-4": {
-      "Genero\\Sage\\Polylang\\": "src/"
+      "Ouun\\Sage\\Polylang\\": "src/"
     }
   },
   "require": {
-    "php": ">=5.6.0",
+    "php": ">=7.1.0",
     "composer/installers": "~1.0"
   },
   "require-dev": {

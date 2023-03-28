@@ -1,9 +1,9 @@
 <?php
 
-namespace Genero\Sage\Polylang\Providers;
+namespace Ouun\Sage\Polylang\Providers;
 
-use Genero\Sage\Polylang\TranslationFinder;
-use Genero\Sage\Polylang\StringFinder;
+use Ouun\Sage\Polylang\TranslationFinder;
+use Ouun\Sage\Polylang\StringFinder;
 use Roots\Acorn\ServiceProvider;
 
 class TranslationFinderServiceProvider extends ServiceProvider
@@ -26,8 +26,10 @@ class TranslationFinderServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->registerTranslations();
-        $this->bindStringTranslationFilter();
+        if(function_exists('pll_register_string')) {
+            $this->registerTranslations();
+            $this->bindStringTranslationFilter();
+        }
     }
 
     public function registerTranslations(): void

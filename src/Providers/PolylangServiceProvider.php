@@ -1,6 +1,6 @@
 <?php
 
-namespace Genero\Sage\Polylang\Providers;
+namespace Ouun\Sage\Polylang\Providers;
 
 use Roots\Acorn\ServiceProvider;
 

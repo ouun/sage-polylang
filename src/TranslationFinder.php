@@ -1,6 +1,6 @@
 <?php
 
-namespace Genero\Sage\Polylang;
+namespace Ouun\Sage\Polylang;
 
 use RecursiveDirectoryIterator;
 use RecursiveIteratorIterator;
