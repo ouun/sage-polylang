@@ -4,7 +4,7 @@ namespace Ouun\Sage\Polylang\Providers;
 
 use Ouun\Sage\Polylang\TranslationFinder;
 use Ouun\Sage\Polylang\StringFinder;
-use Roots\Acorn\ServiceProvider;
+use Illuminate\Support\ServiceProvider;
 
 class TranslationFinderServiceProvider extends ServiceProvider
 {

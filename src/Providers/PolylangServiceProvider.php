@@ -2,7 +2,7 @@
 
 namespace Ouun\Sage\Polylang\Providers;
 
-use Roots\Acorn\ServiceProvider;
+use Illuminate\Support\ServiceProvider;
 
 class PolylangServiceProvider extends ServiceProvider
 {
